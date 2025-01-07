@@ -1,0 +1,21 @@
+.Header {
+  background-color: var(--theme);
+  padding: 8px 16px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  letter-spacing: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logout {
+  opacity: 0.7;
+  color: #fff;
+  cursor: pointer;
+}
+.Logout:hover {
+  opacity: 1;
+  transition: all 0.4s;
+}

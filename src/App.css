@@ -1,0 +1,30 @@
+.sign-up-container {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 64px;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  border: 1px solid var(--theme);
+  width: 100%;
+  margin: 8px 0px;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.btn:hover {
+  background-color: var(--theme);
+  color: #fff;
+}
+.btn-dark {
+  background-color: var(--theme) !important;
+  color: #fff !important;
+}
+.btn-dark:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+}
